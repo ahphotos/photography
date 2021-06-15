@@ -25,9 +25,7 @@ ul li:hover{
 
 /* Add an active class to highlight the current page */
 .navbar li.active {
-  background-color: gray;
-  color: orange;
-}
+  color: orange;}
 
 /* Hide the link that should open and close the navbar on small screens */
 .navbar .icon {
