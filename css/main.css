@@ -2,9 +2,6 @@ header {
   	clear: both;
   	overflow: auto;}
 
-.navbar {
-	float:right;}
-
 .logo img{
 	float:left;}
 
@@ -13,7 +10,9 @@ header {
 	padding:10px;
 	font-size:20px;
 	font-family:raleway;
-	text-decoration: none;}
+	text-decoration: none;
+	list-style: none;
+	float:right;}
 
 .navbar li.active{
 	color: orange;}
