@@ -5,14 +5,16 @@ header {
 .logo img{
 	float:left;}
 
+.navbar {
+	float: right;}
+
 .navbar li{
 	display: inline-block;
 	padding:10px;
 	font-size:20px;
 	font-family:raleway;
 	text-decoration: none;
-	list-style: none;
-	float:right;}
+	list-style-type: none;}
 
 .navbar li.active{
 	color: orange;}
