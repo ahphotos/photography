@@ -7,11 +7,6 @@ h2 {font-family: arial;
 p {font-family: arial;
 	font-size: 14px;}
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto}
-
 header {
   	clear: both;
   	overflow: auto;}
@@ -22,7 +17,9 @@ header {
   	padding: 14px 16px;
   	text-decoration: none;
 	color: inherit;
-  	font-size: 18px;}
+  	font-size: 18px;
+        display: inline-block;
+        float: none;}
 
 /* Change the color of links on hover */
 .navbar a:hover {
