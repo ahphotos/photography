@@ -19,16 +19,32 @@ ul li{
 ul li:hover{
   color: orange;}
 
-/* Hide the link that should open and close the topnav on small screens */
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: gray;
+  color: orange;
+}
+
+/* Hide the link that should open and close the navbar on small screens */
 .navbar .icon {
   display: none;}
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that should open and close the navbar (.icon) */
 @media screen and (max-width: 600px) {
   .navbar li:not(:first-child) {display: none;}
   .navbar li.icon {
     float: right;
     display: block;
+  }
+}
+
+/* Toggle between adding and removing the "responsive" class to navbar when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("navbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
   }
 }
 
