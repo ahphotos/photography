@@ -6,9 +6,15 @@ navbar {float:right;}
 
 .logo img{float:left;}
 
-.navbar a{
-  display: inline-block; padding:10px;
-  font-size:20px; font-family:raleway;}
+.navbar li{
+	display: inline-block;
+	padding:10px;
+	font-size:20px;
+	font-family:raleway;
+	}
 
-.navbar a:hover{
+.navbar li.active{
+	color: orange;}
+
+.navbar li:hover{
   color:orange;}
