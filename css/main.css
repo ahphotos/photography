@@ -13,15 +13,18 @@ ul li{
   display: inline-block; 
   padding: 10px;
   font-size: 20px; 
-  font-family: raleway;
-  height: 150px;}
+  font-family: raleway;}
+
+/*Set navbar height*/
+.navbar {
+  height: 150px}
 
 /*Change navbar text colour when hovering*/
 ul li:hover{
   color: orange;}
 
 /* Add an active class to highlight the current page */
-.topnav li.active {
+.navbar li.active {
   background-color: gray;
   color: orange;
 }
