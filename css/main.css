@@ -11,11 +11,6 @@ header {
   	clear: both;
   	overflow: auto;}
 
-.logo img{
-	float: none;
-	position: absolute;
-	left: 50%;}
-
 /* Style the links inside the navigation bar */
 .navbar a {
 	text-align: center;
