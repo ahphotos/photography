@@ -21,7 +21,7 @@ ul li:hover{
   color: orange;}
 
 /* Add an active class to highlight the current page */
-.topnav a.active {
+.topnav li.active {
   background-color: gray;
   color: orange;
 }
