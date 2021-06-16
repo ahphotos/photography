@@ -16,6 +16,7 @@ p {font-family: arial;
 /* Style the links inside the navigation bar */
 .navbar li {
 	list-style-type: none;
+	display: inline;
 	color: inherit;
 	font-family: raleway;
   	font-size: 18px;
