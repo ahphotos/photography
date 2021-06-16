@@ -17,6 +17,8 @@ header {
   	clear: both;
   	overflow: auto;}
 
+.navbar {text-align: center;}
+
 /* Style the links inside the navigation bar */
 .navbar a {
 	text-align: center;
@@ -25,8 +27,7 @@ header {
 	color: inherit;
 	font-family: raleway;
   	font-size: 18px;
-        display: inline-block;
-        float: none;}
+        display: inline-block;}
 
 /* Change the color of links on hover */
 .navbar a:hover {
