@@ -15,7 +15,8 @@ p {font-family: arial;
 
 /* Centre the links of the navbar horizontally */
 .navbar {
-	text-align: center;}
+	text-align: center;
+	min-height: 58px}
 
 /* Style the links inside the navigation bar */
 .navbar a {
@@ -23,9 +24,7 @@ p {font-family: arial;
 	color: inherit;
 	font-family: tahoma;
   	font-size: 18px;
-	padding: 20px 20px;
-	margin-top: 20px;
-	margin-bottom: 20px;}
+	padding: 20px 20px;}
 
 /* Change the color of links on hover */
 .navbar a:hover {
@@ -35,7 +34,6 @@ p {font-family: arial;
 .navbar a.active {
     color: orange;}
 
-img .main {
-	width: auto;
+.main {
 	max-width:100%;
-	height: auto;}
+	max-height:100%;}
