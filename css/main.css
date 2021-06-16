@@ -15,7 +15,7 @@ p {font-family: arial;
 
 /* Centre the links of the navbar horizontally */
 .navbar {
-	taxt-align: center;}
+	text-align: center;}
 
 /* Style the links inside the navigation bar */
 .navbar a {
