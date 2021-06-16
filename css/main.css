@@ -20,6 +20,7 @@ p {font-family: arial;
 	font-family: raleway;
   	font-size: 18px;
 	padding: 20px 20px;
+	margin-top: 20px;
 	margin-bottom: 20px;}
 
 /* Change the color of links on hover */
@@ -29,13 +30,3 @@ p {font-family: arial;
 /* Add a color to the active/current link */
 .navbar a.active {
     color: orange;}
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;}
-
-/* Add some top padding to the page content to prevent sudden quick movement */
-.sticky + .content {
-  padding-top: 60px;}
