@@ -36,5 +36,6 @@ p {font-family: arial;
     color: orange;}
 
 img .main {
-	width: 100%;
+	width: auto;
+	max-width:100%;
 	height: auto;}
