@@ -17,7 +17,9 @@ header {
   	clear: both;
   	overflow: auto;}
 
-.navbar {text-align: center;}
+.navbar {
+	display: block;
+	text-align: center;}
 
 /* Style the links inside the navigation bar */
 .navbar a {
