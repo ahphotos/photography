@@ -13,21 +13,17 @@ p {font-family: arial;
  	margin-left: auto;
 	margin-right: auto;}
 
-.navbar ul {
-	list-style-type: none;
-	display: inline;}
-
 /* Style the links inside the navigation bar */
-.navbar li {
+.navbar a {
 	color: inherit;
 	font-family: raleway;
   	font-size: 18px;
 	padding: 20px 20px;}
 
 /* Change the color of links on hover */
-.navbar li:hover {
+.navbar a:hover {
  	color: orange;}
 
 /* Add a color to the active/current link */
-.navbar li.active {
+.navbar a.active {
     color: orange;}
