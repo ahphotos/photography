@@ -32,3 +32,7 @@ p {font-family: arial;
 /* Add a color to the active/current link */
 .navbar a.active {
     color: orange;}
+
+img .main {
+	width: 100%;
+	height: auto;}
