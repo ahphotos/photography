@@ -13,10 +13,12 @@ p {font-family: arial;
  	margin-left: auto;
 	margin-right: auto;}
 
+.navbar ul {
+	list-style-type: none;
+	display: inline;}
+
 /* Style the links inside the navigation bar */
 .navbar li {
-	list-style-type: none;
-	display: inline;
 	color: inherit;
 	font-family: raleway;
   	font-size: 18px;
