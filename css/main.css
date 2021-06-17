@@ -45,6 +45,8 @@ p {font-family: arial;
   color: white;
   font-size: 200px;
   font-family: arial black;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
 }
 
 /*Position of image text*/
