@@ -41,7 +41,8 @@ p {font-family: arial;
 /*Container holding image text*/
 .container {
   	position: relative;
-  	text-align: center;}
+  	text-align: center;
+	font-family: arial black;}
 
 /*Position of image text*/
 .image-text {
@@ -50,8 +51,7 @@ p {font-family: arial;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
-	font-size: 200px;
-	font-family: arial black;
+	font-size: 50px;
 	background-color: rgba(255, 255, 255, 0.3);
 	text-shadow: 1px, 1px, 1px rgba(0, 0, 0, 0.8);
 	padding: 20px}
