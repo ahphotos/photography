@@ -43,6 +43,10 @@ p {font-family: arial;
   position: relative;
   text-align: center;
   color: white;
+  font-size: 50px;
+  font-family: arial black;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
 }
 
 /*Position of image text*/
