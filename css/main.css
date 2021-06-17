@@ -52,8 +52,6 @@ p {font-family: arial;
 	transform: translate(-50%, -50%);
 	color: white;
 	background-color: rgba(255, 255, 255, 0.3);
-	-webkit-text-stroke-width: 2px;
-	-webkit-text-stroke-color: black;
 	padding: 10px}
 
 /*If screen size is 601px or more, set the font size of image text to 75px*/
