@@ -34,6 +34,11 @@ p {font-family: arial;
 .navbar a.active {
   color: orange;}
 
+/*Make images responsive to scree size*/
+.responsive {
+	  max-width: 100%;
+	  height: auto;}
+
 /*If screen size is 601px or more, set the font size of image text to 75px*/
 @media screen and (min-width: 601px) {
 	.image-text {font-size: 75px;}}
