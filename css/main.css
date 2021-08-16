@@ -39,18 +39,19 @@ p {font-family: arial;
 	  max-width: 100%;
 	  height: auto;}
 
-/* Container holding the image and the text */
+/* Container holding the image and the text on homepage*/
 .home-container {
-		 position: relative;
-		 text-align: center;
-		 color: white;}
+		position: relative;
+		text-align: center;
+		color: black;}
 
 /* Centered text */
 .image-text {
 		position: absolute;
 		top: 50%;
 		left: 50%;
-		transform: translate(-50%, -50%);}
+		transform: translate(-50%, -50%);
+		background-color: rgba(255, 255, 255, 0.3);}
 
 /*If screen size is 601px or more, set the font size of image text to 75px*/
 @media screen and (min-width: 601px) {
