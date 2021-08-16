@@ -56,8 +56,8 @@ p {font-family: arial;
 
 /*If screen size is 601px or more, set the font size of image text to 75px*/
 @media screen and (min-width: 601px) {
-	.iamge-text {font-size: 75px;}}
+	.image-text {font-size: 75px;}}
 
 /*If screen size is 600px or less, set the font size of image text to 25px*/
 @media screen and (max-width: 600px) {
-	.iamge-text {font-size: 25px;}}
+	.image-text {font-size: 25px;}}
