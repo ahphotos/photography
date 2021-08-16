@@ -37,9 +37,7 @@ h2 {font-family: arial;
 	  height: auto;}
 
 .container {
-	height: 90vh;
-	margin: 2rem;
-	display: grid;
+	display: inline grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
 	grid-gap: 10px 10px;
@@ -49,7 +47,6 @@ h2 {font-family: arial;
 	font-family; tahoma;
 	font-size: 18px;
 	text-align: center;
-	padding: 4rem;
 }
 
 a .gallery-link {
