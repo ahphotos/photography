@@ -4,9 +4,6 @@ h1 {font-family: arial;
 h2 {font-family: arial;
 	font-size: 18px;}
 
-p {font-family: arial;
-	font-size: 14px;}
-
 /*Centre the logo*/
 .logo {
 	display: block;
@@ -39,55 +36,29 @@ p {font-family: arial;
 	  max-width: 100%;
 	  height: auto;}
 
-.row {
-  margin: 8px -16px;}
-
-/* Add padding BETWEEN each column (if you want) */
-.row,
-.row > .column {
-  padding: 8px;}
-
-/* Create four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 25%;}
-
-/* Clear floats after rows */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;}
-
-/* Content */
-div .content {
-    background-color: white;
-    padding: 50px;
-		border-color: gray;}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-    .column {
-    width: 50%;}}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-    width: 100%;}}
-
-/* Centre the grid*/
-.gallery-grid{
-  max-width: 1500px;
-  margin: auto;
+.container {
+	height: 90vh;
+	margin: 2rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
 }
 
-a .gallery-subtitle{
+.cell {
+	font-family; tahoma;
+	font-size: 18px;
+	text-align: center;
+	padding: 4rem;
+}
+
+a .gallery-link {
 	text-decoration: none;
 	color: inherit;
 	font-family: tahoma;
 	font-size: 18px;
 }
 
-p .grid-text{
+p {
 	font-family: tahoma;
 	font-size: 12px;
 }
