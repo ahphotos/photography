@@ -34,10 +34,23 @@ p {font-family: arial;
 .navbar a.active {
   color: orange;}
 
-/*Make images responsive to scree size*/
+/*Make images responsive to screen size*/
 .responsive {
 	  max-width: 100%;
 	  height: auto;}
+
+.home-container {
+	position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+	.image-text {
+		 position: absolute;
+		 top: 50%;
+		 left: 50%;
+		 transform: translate(-50%, -50%);}
 
 /*If screen size is 601px or more, set the font size of image text to 75px*/
 @media screen and (min-width: 601px) {
