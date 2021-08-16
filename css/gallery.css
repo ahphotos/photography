@@ -72,3 +72,9 @@ p {font-family: arial;
 @media screen and (max-width: 600px) {
     .column {
     width: 100%;}}
+
+/* Centre the grid*/
+.gallery-grid{
+  max-width: 1000px;
+  margin: auto;
+}
