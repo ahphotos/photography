@@ -59,10 +59,10 @@ p {font-family: arial;
   clear: both;}
 
 /* Content */
-.content {
+div .content {
     background-color: white;
     padding: 50px;
-	border-color: gray;}
+		border-color: gray;}
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
