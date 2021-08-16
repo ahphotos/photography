@@ -61,7 +61,8 @@ p {font-family: arial;
 /* Content */
 .content {
     background-color: white;
-    padding: 50px;}
+    padding: 50px;
+	border-color: gray;}
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
@@ -74,19 +75,19 @@ p {font-family: arial;
     width: 100%;}}
 
 /* Centre the grid*/
-.column{
+.gallery-grid{
   max-width: 1500px;
   margin: auto;
 }
 
 a .gallery-subtitle{
+	text-decoration: none;
+	color: inherit;
 	font-family: tahoma;
 	font-size: 18px;
 }
 
 p .grid-text{
-	text-decoration: none;
-	color: inherit;
 	font-family: tahoma;
 	font-size: 12px;
 }
