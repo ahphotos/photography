@@ -85,6 +85,8 @@ a .gallery-subtitle{
 }
 
 p .grid-text{
+	text-decoration: none;
+	color: inherit;
 	font-family: tahoma;
 	font-size: 12px;
 }
