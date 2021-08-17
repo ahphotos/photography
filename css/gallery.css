@@ -45,6 +45,6 @@ h2 {font-family: arial;
 
 img .gallery {
 	object-fit: cover;
-	max-width: 1500px;
+	max-width: 500px;
 	display: block;
 }
