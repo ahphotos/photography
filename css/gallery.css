@@ -37,14 +37,12 @@ h2 {font-family: arial;
 	  height: auto;}
 
 .container {
-	display: inline-grid;
+	display: grid;
 	grid-template-columns: auto auto auto;
 	justify-content: space-evenly;
 	grid-gap: 10px 10px;
 }
 
-img .gallery {
-	object-fit: cover;
+.container > img {
 	max-width: 500px;
-	display: block;
 }
