@@ -37,7 +37,7 @@ h2 {font-family: arial;
 	  height: auto;}
 
 .container {
-	display: grid;
+	display: inline-grid;
 	grid-template-columns: auto auto auto;
 	justify-content: space-evenly;
 	grid-gap: 10px 10px;
