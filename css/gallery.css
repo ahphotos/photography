@@ -45,5 +45,5 @@ h2 {font-family: arial;
 
 .container > img {
 	object-fit: contain;
-	max-width: 500px;
+	max-width: 100%;
 }
