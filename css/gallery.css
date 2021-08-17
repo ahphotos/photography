@@ -36,14 +36,14 @@ h2 {font-family: arial;
 	  max-width: 100%;
 	  height: auto;}
 
-.container {
+.container-fluid {
 	display: inline-grid;
 	grid-template-columns: 33% 33% 33%;
 	justify-content: space-evenly;
 	grid-gap: 10px 10px;
 }
 
-.container > img {
+.container-fluid > img {
 	object-fit: contain;
 	max-width: 100%;
 }
