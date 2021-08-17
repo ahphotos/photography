@@ -38,11 +38,7 @@ h2 {font-family: arial;
 
 .container {
 	display: grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: 33% 33% 33%;
 	justify-content: space-evenly;
 	grid-gap: 10px 10px;
-}
-
-.container > img {
-	max-width: 500px;
 }
