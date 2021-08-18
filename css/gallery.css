@@ -37,7 +37,7 @@ h2 {font-family: arial;
   color: orange;}
 
 /*Make images responsive to screen size*/
-.responsive {
+img {
 	  max-width: 100%;
 	  height: auto;}
 
