@@ -42,13 +42,10 @@ h2 {font-family: arial;
 	  height: auto;}
 
 .container {
-	display: inline-grid;
+	height: 100vh;
+	width: 100vw;
+	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	justify-content: space-evenly;
 	grid-gap: 10px 10px;
-}
-
-.iceland {
-	background: url('/images/hi res/logo-crop.jpg');
-	background-size: contain;
 }
