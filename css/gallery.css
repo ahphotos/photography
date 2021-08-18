@@ -39,7 +39,8 @@ h2 {font-family: arial;
 /*Make images responsive to screen size*/
 img {
 	  max-width: 100%;
-	  height: auto;}
+	  height: auto;
+	padding: 10px;}
 
 .container {
 	height: 100vh;
