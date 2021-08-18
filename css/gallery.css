@@ -41,14 +41,14 @@ h2 {font-family: arial;
 	  max-width: 100%;
 	  height: auto;}
 
-.container-fluid {
+.container {
 	display: inline-grid;
-	grid-template-columns: 33% 33% 33%;
+	grid-template-columns: 1fr 1fr 1fr;
 	justify-content: space-evenly;
 	grid-gap: 10px 10px;
 }
 
-.container-fluid > img {
+.container > img {
 	object-fit: contain;
 	max-width: 100%;
 }
