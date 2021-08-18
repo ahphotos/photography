@@ -49,6 +49,7 @@ h2 {font-family: arial;
 }
 
 .container > img {
-	object-fit: contain;
-	max-width: 100%;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
 }
